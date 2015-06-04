@@ -13,5 +13,7 @@ func Sqrt(x float64) float64 {
 }
 
 func IsPublic() {
-	fmt.Printf("this is public\n")
+	if x := 2; x == 2 {
+		fmt.Printf("this is public\n")
+	}
 }
