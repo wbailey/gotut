@@ -1,4 +1,7 @@
-MAKE = make
+GOROOT := $(go env GOROOT)
+GOPATH := $(shell pwd)
+
+export
 
 build:
 	$(MAKE) build -C src/mymath
