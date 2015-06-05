@@ -13,8 +13,7 @@ func Sqrt(x float64) float64 {
 }
 
 func IsPublic() {
-	var i int8
-	for i = 0; i < 10; i++ {
+	for i := 0; i < 10; i++ {
 		fmt.Println(i)
 	}
 
