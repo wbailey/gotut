@@ -3,6 +3,8 @@ GOPATH := $(shell pwd)
 
 export
 
+all: build run
+
 build:
 	$(MAKE) build -C src/mymath
 	$(MAKE) build -C src/mystr
