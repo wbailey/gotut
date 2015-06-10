@@ -41,5 +41,11 @@ func main() {
 
 	fmt.Println(v)
 
+	a := 1
+
+	Add1(a)
+
+	fmt.Println(a)
+
 	// mymath.IsPublic()
 }
