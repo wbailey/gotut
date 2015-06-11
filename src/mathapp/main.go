@@ -43,7 +43,7 @@ func main() {
 
 	a := 1
 
-	Add1(a)
+	mymath.Add1(&a)
 
 	fmt.Println(a)
 

@@ -1,2 +1,2 @@
 build:
-	GOPATH=$(GOPATH) go install
+	GOPATH=$(GOPATH) $(GOBUILD)

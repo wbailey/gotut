@@ -1,5 +1,6 @@
-GOROOT := $(go env GOROOT)
-GOPATH := $(shell pwd)
+GOROOT := $(shell go env GOROOT)
+GOPATH := $(shell go env GOPATH)
+GOBUILD= go install -a -v
 
 export
 
