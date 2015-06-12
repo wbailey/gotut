@@ -47,5 +47,20 @@ func main() {
 
 	fmt.Println(a)
 
-	// mymath.IsPublic()
+	x := mymath.IsOdd(3)
+	y := mymath.IsOdd(2)
+	z := mymath.IsEven(3)
+	t := mymath.IsEven(2)
+
+	fmt.Println(x, y, z, t)
+
+	list := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+	odd := mymath.Filter(list, mymath.IsOdd)
+
+	even := mymath.Filter(list, mymath.IsEven)
+
+	fmt.Println(odd)
+	fmt.Println(even)
+
 }
